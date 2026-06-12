@@ -49,4 +49,21 @@ La continuidad se mantiene mediante `docs/onboarding/_progress.md` que se escrib
 
 ## Instalación
 
-Instalada como skill de usuario en `~\.agents\skills\onboard-program\`. Cuando esté madura, empaquetar como `.skill` si se quiere distribuir.
+No hay que compilar ni instalar nada: basta con copiar esta carpeta al sitio donde Claude busca las skills de usuario.
+
+1. Copia la carpeta `onboard-program` completa (con su `SKILL.md`, este `README.md` y la carpeta `templates/`) dentro de `~\.agents\skills\`, de forma que quede así:
+
+   ```
+   ~\.agents\skills\onboard-program\
+   ├── SKILL.md
+   ├── README.md
+   └── templates\
+   ```
+
+   > En Windows, `~` es tu carpeta de usuario (por ejemplo `C:\Users\tu-nombre`). Si la carpeta `.agents\skills` no existe todavía, créala.
+
+2. Abre (o reinicia) Claude Code para que detecte la skill nueva.
+
+3. Para comprobar que funciona, abre cualquier repositorio y escribe algo como *"quiero entender este programa"*. Si la skill está bien instalada, Claude arrancará el recorrido de onboarding por fases.
+
+Al ser una skill de usuario, queda disponible en todos tus proyectos, no solo en este.
