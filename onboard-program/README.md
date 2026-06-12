@@ -1,5 +1,9 @@
 # onboard-program
 
+<p align="center">
+  <img src="../IMAGE.svg" width="350" alt="onboard-program" />
+</p>
+
 Pues aquí tienes una skill que guía a un desarrollador/a nuevo/a en la comprensión paso a paso de un programa, servicio o repositorio. Convierte la pregunta "no entiendo este programa" en un recorrido pedagógico con documentación, diagramas, checklist y scripts ejecutables con datos mokeados. 
 
 *En el curro te han dado un programa y tienes que saberlo PARA AYER...*
